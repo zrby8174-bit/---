@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>اللجنة العلمية المركزية – جامعة صنعاء</title>
+
+<style>
+/* إخفاء أي أثر لبلوجر */
+#navbar, .blogger-nav, header, footer, .blog-pager {
+  display: none !important;
+}
+
+/* إعدادات عامة */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, Arial;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #f4f6f8;
+  direction: rtl;
+}
+
+/* الهيدر */
+.main-header {
+  background: #0b3c5d;
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+}
+
+/* القائمة */
+.nav {
+  background: #092f4a;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  color: #fff;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background: #145374;
+}
+
+/* الأقسام */
+.section {
+  padding: 40px 20px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #0b3c5d;
+}
+
+/* البطاقات */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* الفوتر */
+.main-footer {
+  background: #0b3c5d;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="main-header">
+  <h1>اللجنة العلمية المركزية – جامعة صنعاء</h1>
+  <p>منصة علمية وإعلامية رسمية</p>
+</div>
+
+<div class="nav">
+  <a href="#home">الرئيسية</a>
+  <a href="#colleges">الكليات</a>
+  <a href="#news">الأخبار</a>
+  <a href="#bots">البوتات</a>
+  <a href="#about">من نحن</a>
+</div>
+
+<div id="home" class="section">
+  <h2>مرحبًا بكم</h2>
+  <p>
+    منصة اللجنة العلمية المركزية بجامعة صنعاء، تهدف إلى نشر الأنشطة
+    والمحتوى العلمي والإعلامي لجميع الكليات.
+  </p>
+</div>
+
+<div id="colleges" class="section">
+  <h2>الكليات</h2>
+  <div class="cards">
+    <div class="card">كلية الطب والعلوم الصحية</div>
+    <div class="card">كلية طب الأسنان</div>
+    <div class="card">كلية العلوم الطبية التطبيقية</div>
+    <div class="card">كلية التجارة والاقتصاد</div>
+    <div class="card">كلية الزراعة</div>
+    <div class="card">كلية التربية</div>
+  </div>
+</div>
+
+<div id="news" class="section">
+  <h2>آخر الأخبار</h2>
+  <div class="cards">
+    <div class="card">
+      تدشين فعالية علمية في كلية الطب
+    </div>
+    <div class="card">
+      نزول ميداني للجنة العلمية لمتابعة الأنشطة
+    </div>
+  </div>
+</div>
+
+<div id="bots" class="section">
+  <h2>البوتات</h2>
+  <div class="cards">
+    <div class="card">
+      بوت الأخبار العلمية<br><br>
+      <a href="#">الدخول إلى البوت</a>
+    </div>
+    <div class="card">
+      بوت الملخصات الدراسية<br><br>
+      <a href="#">الدخول إلى البوت</a>
+    </div>
+  </div>
+</div>
+
+<div id="about" class="section">
+  <h2>من نحن</h2>
+  <p>
+    اللجنة العلمية المركزية – جامعة صنعاء،
+    جهة تنظيمية تُعنى بتنسيق وتطوير العمل العلمي
+    داخل كليات الجامعة.
+  </p>
+</div>
+
+<div class="main-footer">
+  © 2026 اللجنة العلمية المركزية – جامعة صنعاء
+</div>
+
+</body>
+</html>
